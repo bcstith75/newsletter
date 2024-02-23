@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .align-element{
+    @apply mx-auto max-w-7xl px-8
+  }
+
+  .btn {
+    @apply bg-darkSlateGrey text-xs px-14 py-4 text-white mt-10 rounded-lg
+  }
+}
+
+.checkmark-sm {
+  @apply w-5 h-5 text-tomato
+}
+
+.checkmark-xl {
+  @apply w-12 h-12 text-tomato
+}
